@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <style>
+    /* Reset and Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #a855f7, #ec4899); /* Purple to Pink Gradient */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    /* Container Styling */
+    .container {
+      text-align: center;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 50px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      width: 90%;
+      animation: fadeIn 1s ease-in-out;
+      color: #333;
+    }
+
+    /* Heading Styling */
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff4d6d; /* Bright Purple for Heading */
+      font-weight: bold;
+    }
+
+    /* Paragraph Styling */
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    /* Button Styling */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6f61, #ff3d71);
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #ff3d71, #ff6f61);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="thankYouMessage">Welcome, dear subscriber!</h2>
+    <p>Thank you for subscribing to us. Stay tuned for the latest updates, exciting content, and special offers crafted just for you!</p>
+    <a href="#" class="btn">Discover More</a>
+  </div>
+
+</body>
+</html>
